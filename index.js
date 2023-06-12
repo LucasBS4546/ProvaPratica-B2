@@ -8,8 +8,12 @@ function calcularPrimo() {
     //Os IFs checam se NÃO é primo. Logo, se nenhum IF ativar, primo=1.
 
     console.log(numero);
+    
+    if (numero < 0) {
 
-    if (numero == 1 || numero == 0) {
+        primo = 0; //Não é primo
+
+    }else if (numero == 1 || numero == 0) {
 
         primo = 2; //Não é primo nem composto
 
@@ -18,7 +22,7 @@ function calcularPrimo() {
         for (let i = 2; i < numero; i++) {
 
             //Um primo jamais terá resto 0 dividido por qualquer número que não seja ele mesmo e 1.
-            if (numero % i == 0 || numero < 0) {
+            if (numero % i == 0) {
 
                 primo = 0; //Não é primo
                 break;
