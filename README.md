@@ -1,2 +1,3 @@
 # ProvaPratica-B2
-Aqui estão minhas soluções para a prova prática de JavaScript dada no dia 12/06/2023.
+## Github pages
+O javascript foi implementado no HTML para permitir a ativação das funções por meio de botões simples, e por isso disponibilizei tudo no github pages para facilitar o teste das funções.
