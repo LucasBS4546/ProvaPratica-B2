@@ -18,7 +18,7 @@ function calcularPrimo() {
         for (let i = 2; i < numero; i++) {
 
             //Um primo jamais terá resto 0 dividido por qualquer número que não seja ele mesmo e 1.
-            if (numero % i == 0) {
+            if (numero % i == 0 || numero < 0) {
 
                 primo = 0; //Não é primo
                 break;
