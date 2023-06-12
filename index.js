@@ -9,11 +9,7 @@ function calcularPrimo() {
 
     console.log(numero);
     
-    if (numero < 0) {
-
-        primo = 0; //Não é primo
-
-    }else if (numero == 1 || numero == 0) {
+    if (numero == 1 || numero == 0) {
 
         primo = 2; //Não é primo nem composto
 
